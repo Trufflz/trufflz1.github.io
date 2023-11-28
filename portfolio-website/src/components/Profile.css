@@ -1,0 +1,14 @@
+.pfp {
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+}
+
+.resume-button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 8rem;
+    height: 2rem;
+    background-color: gray;
+}
