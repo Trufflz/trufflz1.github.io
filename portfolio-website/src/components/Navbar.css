@@ -1,5 +1,63 @@
-.container {
-    background-color: green;
-    margin-bottom: 5rem;
+.nav-container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #739072;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
 }
-/* 10rem
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    transition: all 0.4s;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: white;
+}
+
+.nav-item::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    right: 0px;
+    bottom: -4px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav-item:hover::after {
+    color: white;
+    opacity: 1;
+    transition: all 0.3s
+}
+/* .nav-item:focus::after {
+    color: white;
+    opacity: 1;
+    transition: all 0.3s
+} */
+
+
+/*
+FIXME: focus not keeping underline for sections
+remember to add top-padding to all sections
+navbar margins to fill whole page
+
+easter eggs?
+* click smth certain amt of times, an animation pops out?
+* funny quotes (eepy lol)

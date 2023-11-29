@@ -1,3 +1,10 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
 .pfp {
     width: 350px;
     height: 350px;
