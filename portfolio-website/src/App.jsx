@@ -1,36 +1,33 @@
-import { useState, useEffect } from 'react' //dark and light mode?
 import './App.css'
 
-//components
+//Components
 import Navbar from './components/Navbar.jsx'
-import Profile from './components/Profile.jsx'
+import Home from './components/Home.jsx'
 import Projects from './components/Projects.jsx'
-import Skills from './components/Skills.jsx'
-
-
 
 function App() {
   return (
-    <>
+    <div className='app'>
       <Navbar />
-      <Profile />
+      <Home />
       <Projects />
-      <Skills />
-    </>
-
+    </div>
   )
 }
 
 export default App
 
-/* Sections
-  > navbar
-  > profile
-  > Projects
-  > skills
-  > contact me
-*/
 
+/* Sections
+  > Home
+    1) responsive text sizing
+    2) on hover, icons glow pink
+    3) streak follows mouse
+    4) down arrow button?
+  > Projects
+  > Skills
+  > Contact me
+*/
 
 //  ⸜(｡˃ ᵕ ˂ )⸝♡
 //  ☜(ﾟヮﾟ☜)

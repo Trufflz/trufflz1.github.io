@@ -5,6 +5,11 @@ body {
   margin: 0 auto;
 }
 
+/* .app {
+  display: flex;
+  flex-direction: column;
+} */
+
 /*
 #root {
   max-width: 1280px;
