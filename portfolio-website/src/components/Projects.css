@@ -1,9 +1,3 @@
-* {
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: 0.2s linear;
-}
-
 .project-container {
     position: relative;
     width: 100%;
@@ -12,21 +6,68 @@
 
 .project-container h1 {
     text-align: center;
-    background-color: var(--pink);
+    background-color: var(--light-blue);
     text-decoration: underline;
     font-size: 40px;
     padding: 20px 0;
     text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
 }
 
 .project-container .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 15px;
+    margin: 30px;
 }
 
-.cards img {
-    width: 300px;
-    height: 300px;
+.project-container .card-container .cards {
+    box-shadow: 0 5px 10px rgba(0,0,0.0.2);
+    border-radius: 5px;
+    background:linear-gradient(30deg, var(--light-blue), var(--pink));
+    text-align: center;
+    padding: 30px 20px;
 }
 
+.project-container .card-container .cards img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.project-container .card-container .cards h3 {
+    color: white;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.project-container .card-container .cards p {
+    color: #444;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.project-container .card-container .cards .btn {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    background-color: var(--pink);
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.project-container .card-container .cards .btn:hover {
+    letter-spacing: 1px;
+}
+
+.project-container .card-container .cards:hover {
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px) {
+    .project-container {
+        padding: 20px;
+    }
+}

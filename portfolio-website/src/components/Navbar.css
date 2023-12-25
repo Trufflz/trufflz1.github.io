@@ -23,4 +23,5 @@
     color: var(--pink);
     transition: all 0.3s;
     text-decoration: underline;
+    transform: scale(1.1);
 }
