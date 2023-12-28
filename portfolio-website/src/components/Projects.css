@@ -42,9 +42,10 @@
 }
 
 .project-container .card-container .cards p {
-    color: #444;
+    color: #1d1c1c;
     font-size: 15px;
     line-height: 1.5;
+    text-transform: none;
 }
 
 .project-container .card-container .cards .btn {
