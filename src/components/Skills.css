@@ -1,3 +1,7 @@
+.skills-container {
+    height: 100vh;
+}
+
 .skills-container h1 {
     text-align: center;
     background-color: var(--light-blue);
@@ -5,5 +9,47 @@
     font-size: 40px;
     padding: 20px 0;
     text-shadow: 0 5px 10px rgba(0,0,0,0.2);
-    margin-bottom: 30px;
+}
+
+.skills-container .ina {
+    height: 100vh;
+    width: 330px;
+    overflow: clip;
+    background-color: rgb(230, 195, 212);
+    opacity: 80%;
+}
+
+.skills-container .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 30px 20px;
+}
+
+.skills-container .card-container img {
+    width: 120px;
+    height: 90px;
+}
+.skills-container .card-container h3 {
+    padding: 10px 0;
+}
+
+.skills-container .card-container .card-1 {
+    background: linear-gradient(0deg, white, #f8a3c5);
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+
+.skills-container .card-container .card-2 {
+    background: linear-gradient(0deg, white, #67A3D9);
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+}
+
+.skills-container .card-container .card-1:hover, .skills-container .card-container .card-2:hover {
+    transform: translate(0, -5px) rotate(-2deg);
 }

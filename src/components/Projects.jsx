@@ -43,7 +43,7 @@ function Projects() {
                 <div className='cards'>
                     <img src={ss_img} alt=''></img>
                     <h3>"Sinking Shapes" Game</h3>
-                    <p></p>
+                    <p>My FIRST endless game where you must destroy shapes that fall from the sky before they hit the ground!</p>
                     <a className='btn' href={ss_link} target='_blank' rel='noreferrer'>Read More</a>
                 </div>
 
@@ -57,7 +57,8 @@ function Projects() {
                 <div className='cards'>
                     <img src={rps_img} alt=''></img>
                     <h3>"Rock Paper Scissors" Game</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo sapien eget dolor blandit semper.</p>
+                    <p>ROSEHACK 2022 HACKATHON</p>
+                    <p>A custom terminal-hosted game of Rock Paper Scissors, [emphasize teamwork] </p>
                     <a className='btn' href={rps_link} target='_blank' rel='noreferrer'>Read More</a>
                 </div>
 

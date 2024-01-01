@@ -13,7 +13,7 @@ function Home() {
             <img className='background' src={background} alt=''></img>
 
             <div className='title-container'>
-                <h1>Vicki Vo</h1>
+                <h1>Vincent Vo</h1>
                 <h2>Frontend Developer & Game Developer</h2>
                 <div className='socials'>
                     <a href={linkedinLink} target='_blank' rel='noreferrer'><img src={linkedin} alt=''></img></a>
